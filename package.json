@@ -1,0 +1,38 @@
+{
+  "name": "latergram",
+  "version": "1.0.0",
+  "description": "Pipeline | Node/Express Mongo DB Aggragations exploration into Instagram",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "start": "nodemon server.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pickuppatterns/root.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pickuppatterns/root/issues"
+  },
+  "homepage": "https://github.com/pickuppatterns/root#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "jest": "^24.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.4.8",
+    "nodemon": "^1.18.9",
+    "supertest": "^3.4.2"
+  }
+}
